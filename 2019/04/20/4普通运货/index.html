@@ -480,7 +480,7 @@
     $(function () {
         $('.tabs').tabs();
     var flag =  browserRedirect(); 
-      if(flag){
+      if(!flag){
         $('#alipay').append("<div class='phoneNum'><p class='phoneNumP'><label>联系电话：</label></br><a href='#' class='phoneNumA'>17633248133</a> 蔡经理</p></div>");
       }else{
          $('#alipay').append("<div class='phoneNum'><p class='phoneNumP'><label>联系电话：</label></br><a href='#' class='phoneNumA'>17633248133</a> 蔡经理</p><a href='tel://17633248133' class='fa fa-suPhone'></a></div>");
