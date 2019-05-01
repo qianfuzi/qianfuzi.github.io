@@ -23,7 +23,7 @@
     .post-container {
         width: 90%;
         margin: 0 auto;
-        max-width: 12500px;
+        max-width: 1250px;
     }
 }
 
@@ -163,7 +163,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, rgba(229, 75, 64, .5), rgba(9, 3, 254, 1));
 }
 
 .text-color {
