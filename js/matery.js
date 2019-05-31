@@ -120,18 +120,9 @@ $(function () {
 
     /*回到顶部*/
     $('#backTop').click(function () {
-        // $('body,html').animate({scrollTop: 0}, 400);
-        var phone = $('#backTop').attr('item');
-        window.location.href ="tel://"+phone;
+        $('body,html').animate({scrollTop: 0}, 400);
         return false;
     });
-     /*qq链接*/
-    // $('#qqLink').click(function () {
-    //     // $('body,html').animate({scrollTop: 0}, 400);
-    //     var qqLink = $('#qqLink').attr('title');
-    //     window.location.href ="http://wpa.qq.com/msgrd?v=3&uin="+qqLink+"&site=qq&menu=yes";
-    //     return false;
-    // });
 
     /*监听滚动条位置*/
     let $nav = $('#headNav');

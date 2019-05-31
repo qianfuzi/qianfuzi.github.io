@@ -163,7 +163,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, rgba(229, 75, 64, .5), rgba(9, 3, 254, 1));
+    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
 }
 
 .text-color {
@@ -218,10 +218,7 @@ header .brand-logo .logo-img {
 }
 
 header .brand-logo .logo-span {
-    font-size: 1.3rem;
-    line-height: 35px;
-    display:inline-block; 
-   height: 35px;
+    font-size: 2rem;
 }
 
 header .button-collapse i {
@@ -1678,7 +1675,6 @@ footer .copy-right {
 
 .top-scroll .btn-floating {
     background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%);
-    /*background: url('..\medias\t512.png');*/
     width: 48px;
     height: 48px;
 }
