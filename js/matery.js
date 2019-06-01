@@ -120,7 +120,8 @@ $(function () {
 
     /*回到顶部*/
     $('#backTop').click(function () {
-        $('body,html').animate({scrollTop: 0}, 400);
+        var phone = $('#backTop').attr('item');
+        window.location.href ="tel://"+phone;
         return false;
     });
 
