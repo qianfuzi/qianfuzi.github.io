@@ -400,7 +400,7 @@ header .go-back i {
     font-weight: 900;
     line-height: 1.4em;
     color: #333;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .bg-cover .post-title {
@@ -1731,9 +1731,19 @@ footer .copy-right {
         text-align: center;
     }
     header .brand-logo .logo-span{
-        font-size: 1.4rem;
+        font-size: 0.8rem;
     }
-    
+    #artDetail .article-tag .chip {
+    font-size: 1rem;
+    font-weight: 600;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
 }
 /*大屏幕下(桌面类)的样式*/
 @media only screen and (min-width: 993px) {
@@ -1747,7 +1757,7 @@ footer .copy-right {
     color: red;
 }
 #dianJiBoHao{
-    width: 350px;
+    width: 290px;
 }
 .phoneNumP{
     margin-top: 50px!important;
