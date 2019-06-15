@@ -300,9 +300,7 @@ header .side-nav .social-link {
     line-height: 45px;
     font-size: 1rem;
     color: #fafafa;
-    border: 1px solid #fafafa;
-    background-color: #45d223b0;
-    border-radius: 30px;
+    background-color: #d6a354;
     box-shadow: none;
 }
 
@@ -367,7 +365,7 @@ header .go-back i {
 }
 
 .bg-cover:after {
-    background: rgba(253, 154, 0, 0.75);
+    background: #333333b8;
 }
 
 .bg-cover:before, .bg-cover:after {
@@ -383,24 +381,27 @@ header .go-back i {
 
 .bg-cover .container {
     position: relative;
-    color: #333;
+    color: #d6a354;
     z-index: 2;
 }
 
 .bg-cover .title {
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 700;
     line-height: 0.03em;
     margin-bottom: 60px;
-    background-image: linear-gradient(135deg,#fafafa,#f8a830,#fafafa),linear-gradient(-90deg, #FFBA33 0%, #B3450A 100%);
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 2px #333;
 }
 
 .bg-cover .description {
-    font-size: 1.25rem;
-    font-weight: 900;
-    line-height: 1.4em;
-    color: #333;
-    margin-bottom: 100px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 50px;
+    color: #d6a354;
+    margin-bottom: 80px;
+    font-family: fantasy;
+    height: 50px;
 }
 
 .bg-cover .post-title {
@@ -1606,7 +1607,7 @@ footer .copy-right {
 .top-scroll .btn-floating i {
     line-height: 48px;
     font-size: 1.8rem;
-    background-color: #45d223e6;
+    background-color: #d6a354;
 }
 
 @media screen and (min-width: 368px) and (max-width: 767px) {
@@ -1744,6 +1745,30 @@ footer .copy-right {
     margin-right: 5px;
     margin-bottom: 2px;
 }
+.bg-cover .title{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 0.03em;
+    margin-bottom: 60px;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 2px #333;
+}
+#telPhoneFirst{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #fafafa;
+    width: 260px;
+    margin: auto;
+    margin-bottom: 100px;
+    font-family: -webkit-pictograph;
+    font-style: italic;
+    margin-top: -10px;
+}
+.bg-cover .description{
+}
+
+
 }
 /*大屏幕下(桌面类)的样式*/
 @media only screen and (min-width: 993px) {
@@ -1752,6 +1777,18 @@ footer .copy-right {
         margin-left: 150px;
         margin-right: 30px;
     }
+    #telPhoneFirst{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #fafafa;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 150px;
+    font-family: -webkit-pictograph;
+    font-style: italic;
+    margin-top: -20px;
+}
 }
 .title_tell {
     color: red;
@@ -1772,4 +1809,20 @@ footer .copy-right {
     border-radius: 1rem;
     width: 12rem;
     text-align: center;
+}
+
+.span-leftRight{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: white;
+    font-family: cursive;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+#span-left{
+    margin-right: 10px
+}
+#span-right{
+    margin-left: 10px
 }
