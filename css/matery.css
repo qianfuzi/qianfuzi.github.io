@@ -740,6 +740,52 @@ article .article-tags .chip {
     #articleContent table{
         table-layout: fixed;
     }
+    .card .card-content .dream_p .dream_span{
+        display: block;
+    text-align: center;
+    border-top-style: dashed;
+    border-top-width: thin;
+    }
+     .card .card-content .dream_p{
+        text-align: center;
+    }
+    header .brand-logo .logo-span{
+        font-size: 0.8rem;
+    }
+    #artDetail .article-tag .chip {
+    font-size: 1rem;
+    font-weight: 600;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+.bg-cover .title{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 0.03em;
+    margin-bottom: 60px;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 2px #333;
+}
+#telPhoneFirst{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #fafafa;
+    width: 260px;
+    margin: auto;
+    margin-bottom: 100px;
+    font-family: -webkit-pictograph;
+    font-style: italic;
+    margin-top: -10px;
+}
+.bg-cover:after {
+    background: #333333b8;
+}
 }
 
 @media only screen and (min-width: 1418px) {
@@ -1765,8 +1811,7 @@ footer .copy-right {
     font-style: italic;
     margin-top: -10px;
 }
-.bg-cover .description{
-}
+
 
 
 }
