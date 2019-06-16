@@ -782,9 +782,7 @@ article .article-tags .chip {
     font-style: italic;
     margin-top: -50px;
 }
-.bg-cover:after {
-    background: #333333b8;
-}
+
 .bg-cover .description {
     font-size: 2rem;
     font-weight: 800;
