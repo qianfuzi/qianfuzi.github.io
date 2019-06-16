@@ -365,7 +365,7 @@ header .go-back i {
 }
 
 .bg-cover:after {
-    background: #333333b8;
+    background: rgba(10, 10, 10, 0.66);
 }
 
 .bg-cover:before, .bg-cover:after {
