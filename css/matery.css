@@ -778,13 +778,21 @@ article .article-tags .chip {
     color: #fafafa;
     width: 260px;
     margin: auto;
-    margin-bottom: 100px;
     font-family: -webkit-pictograph;
     font-style: italic;
-    margin-top: -10px;
+    margin-top: -50px;
 }
 .bg-cover:after {
     background: #333333b8;
+}
+.bg-cover .description {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 50px;
+    color: #d6a354;
+    margin-bottom: 80px;
+    font-family: fantasy;
+    height: 50px;
 }
 }
 
@@ -1806,12 +1814,19 @@ footer .copy-right {
     color: #fafafa;
     width: 260px;
     margin: auto;
-    margin-bottom: 100px;
     font-family: -webkit-pictograph;
     font-style: italic;
-    margin-top: -10px;
+    margin-top: -50px;
 }
-
+.bg-cover .description {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 50px;
+    color: #d6a354;
+    margin-bottom: 80px;
+    font-family: fantasy;
+    height: 50px;
+}
 
 
 }
