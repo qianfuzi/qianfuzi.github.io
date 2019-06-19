@@ -489,13 +489,14 @@ header .go-back i {
     font-size: 2rem;
     font-weight: 800;
     line-height: 1.4em;
-    color: #fafafaab;
+    color: #d6a354;
     margin-bottom: 100px;
     margin-top: -15px;
+    text-shadow: 4px 4px 2px #333;
 }
 
 .bg-cover .post-title {
-    font-size: 1.9rem;
+    font-size: 2rem;
 }
 
 
