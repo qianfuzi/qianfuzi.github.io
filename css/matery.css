@@ -1,10 +1,11 @@
 @media only screen and (max-width: 320px) {
      #subtitleP{
         font-size: 35px;
+        height: 40px;
     }
-    .bg-cover .title{
+/*    .bg-cover .title{
         height: 12rem;
-    }
+    }*/
      #descriptionPhone{
         font-size: 18px;
     }
@@ -32,6 +33,7 @@
     }
     #subtitleP{
         font-size: 50px;
+        height: 40px;
     }
     #descriptionPhone{
         font-size: 23px;
@@ -61,6 +63,7 @@
     }
      #subtitleP{
         font-size: 70px;
+        height: 40px;
     }
       #descriptionPhone{
         font-size: 40px;
@@ -96,6 +99,7 @@
     }
     #subtitleP{
         font-size: 90px;
+         height: 60px;
     }
        #telPhoneFirst{
         font-size:1.5rem;
@@ -472,7 +476,7 @@ header .go-back i {
 }
 
 .bg-cover .title {
-    height: 18rem;
+ /*   height: 18rem;*/
     /* margin-bottom: 60px; */
     letter-spacing: 3px;
     
@@ -482,7 +486,7 @@ header .go-back i {
     margin: 0;
     /*font-size: 6vw;*/
     font-weight: 800;
-    height: 60px;
+    /*height: 60px;*/
     text-shadow: 4px 4px 2px #333;
 }
 .bg-cover .description {
@@ -1879,7 +1883,7 @@ footer .copy-right {
     color: #d6a354;
     font-weight: 700;
     font-family: fantasy;
-    height: 80px;
+    /*height: 80px;*/
 }
 .span-leftRight{
     color: white;
@@ -1888,9 +1892,9 @@ footer .copy-right {
 }
 @media only screen and (max-width: 320px) {
  
-    .bg-cover .title{
+  /*  .bg-cover .title{
         height: 12rem;
-    }
+    }*/
     #descriptionPhone{
         height: 60px;
     }
